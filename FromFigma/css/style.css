@@ -138,24 +138,24 @@ img {
 }
 .lunch_img {
     position: relative;
-    padding:10px;
+    padding:30px;
 }
 .lunch_img:before,.lunch_img:after{ 
     content:'';
-    width: 150px;
-    height: 50px;
+    width: 300px;
+    height: 100px;
     position: absolute;
     display: inline-block;
 }
 .lunch_img:before{
-    border-left: solid 1px #333;
-    border-top: solid 1px #333;
-    top: px;
-    left: 1px;
+    border-left: solid 1px rgb(158, 154, 154);
+    border-top: solid 1px rgb(158, 154, 154);
+    top: 0px;
+    left: 0;
 }
 .lunch_img:after{
-    border-right: solid 1px #333;
-    border-bottom: solid 1px #333;
+    border-right: solid 1px rgb(158, 154, 154);
+    border-bottom: solid 1px rgb(158, 154, 154);
     bottom:0;
     right: 0;
 }
@@ -205,7 +205,7 @@ img {
 .lunch_img {
     width: 45%;
     margin: auto .5rem;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .lunch h1 {
