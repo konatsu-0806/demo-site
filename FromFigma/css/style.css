@@ -443,4 +443,33 @@ img {
     .kesu {
         display: none;
     }
+    .dish2 p {
+        position: relative;
+        top: 0;
+        left:0;
+        font-size: large;
+        text-align: center;
+    }
+    .dish3 p {
+        position: relative;
+        top: 0;
+        left:0;
+        font-size: large;
+        text-align: center;
+    }
+    .dish4 p {
+        position: relative;
+        top: 0;
+        left:0;
+        font-size: large;
+        text-align: center;
+    }
+}
+.detail {
+    display: flex;
+    justify-content: space-around;
+}
+.detail h1 {
+    border: solid 3px #333;
+    padding: ;
 }
