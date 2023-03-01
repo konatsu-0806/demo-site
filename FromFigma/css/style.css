@@ -486,8 +486,55 @@ img {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    padding: 150px 50px 0px 50px;
+    padding: 150px 50px 30px 50px;
   }
 .shop_contents {
     display: flex;
+    justify-content: space-between;
+}
+table{
+    width: 100%;
+  }
+  
+  table th{
+    position: relative;
+    text-align: left;
+    width: 15%;
+    font-weight: 100;
+  }
+  
+  table th:after{
+    display: block;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top:calc(50% - 1px);
+    right:-15px;
+  }
+  
+  table td{
+    text-align: left;
+    padding:1px 0 1px 30px;
+    width: 85%;
+  }
+.shop_contents img {
+    border-radius: 50%;
+    width: 40%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+iframe {
+    width: auto;
+}
+@media screen and (max-width: 767px) {
+    .shop_contents {
+        display: block;
+    }
+    iframe {
+        display: block;
+        
+    }
 }
