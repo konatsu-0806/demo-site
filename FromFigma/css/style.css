@@ -261,7 +261,7 @@ img {
 }
 .a_set h3 {
     padding-top: 30px;
-    text-align: right;
+    text-align: center;
 }
 .b_set {
     background-color: #cbca78;
@@ -287,7 +287,7 @@ img {
         margin-bottom: 20px;
     }
     .menu_set li {
-        padding-left: 80px;
+        padding-left: 20px;
     }
 }
 /* dinner */
@@ -536,5 +536,8 @@ iframe {
     iframe {
         display: block;
         margin: auto;
+    }
+    table {
+        margin-top: 30px;
     }
 }
